@@ -1,0 +1,38 @@
+
+
+*{
+    box-sizing: border-box; margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+}
+.image{
+    background-image: url("image/photo-1577046823799-58b2d217d508.jfif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+
+
+}
+
+.countdown-timer-container{
+color: white;
+width:70%;
+height: auto;
+margin-left: 270px;
+margin-top:15%
+}
+.countdown-th{
+    width: 21%;
+    float: left;
+}
+.th{
+    font-size:7rem ;
+}
+
